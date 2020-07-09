@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: lenovo
   Date: 2020/7/9
-  Time: 14:14
+  Time: 14:31
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -11,16 +11,10 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>登录页面</title>
+    <title>登录成功页面</title>
 </head>
 <body>
-<p>输入账号密码错误，请重新输入！</p>
-<form action="LoginServlet" method="post"><!-- action写要请求Servlet的名 -->
-    用户名：<input type="text" id="uname" name="uname"><br><br>
-    密码：<input type="password" id="pwd" name="pwd"><br><br>
-    <input type="submit" value="登录">
-    <input type="reset" value="重置">
-</form>
+登录成功！${name},${pwd}<form action="LoginServlet" method="get"><input type="submit" value="注销登录"></form>
 </body>
 </html>
 
