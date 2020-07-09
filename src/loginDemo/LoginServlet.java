@@ -60,6 +60,7 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
         {// 校验不成功，则留在跳转到login2.jsp页面
             response.sendRedirect("login2.jsp");
         }
+
     }
     @Override
     public void destroy() {

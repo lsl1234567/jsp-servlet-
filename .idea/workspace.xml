@@ -6,9 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ca02d80-8d07-4d41-bb83-8539302d0dbb" name="Default" comment="输入错误跳转">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../text1/web/login1.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../text1/web/login2.jsp" />
+    <list default="true" id="0ca02d80-8d07-4d41-bb83-8539302d0dbb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../text1/web/login.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../text1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../text1/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../text1/src/loginDemo/LoginServlet.java" afterPath="$PROJECT_DIR$/../text1/src/loginDemo/LoginServlet.java" />
     </list>
@@ -35,12 +34,12 @@
       <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../text1/src/loginDemo/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="60" column="45" lean-forward="false" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+            <state relative-caret-position="458">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2325#2326#0" expanded="true" />
-                <element signature="e#2356#2357#0" expanded="true" />
+                <element signature="e#2326#2327#0" expanded="true" />
+                <element signature="e#2357#2358#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,16 +85,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../text1/web/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -120,10 +109,10 @@
         <option value="$PROJECT_DIR$/../text1/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../text1/web/index.jsp" />
         <option value="$PROJECT_DIR$/../text1/web/hello.jsp" />
-        <option value="$PROJECT_DIR$/../text1/web/login.jsp" />
         <option value="$PROJECT_DIR$/../text1/web/WEB-INF/login1.jsp" />
         <option value="$PROJECT_DIR$/../text1/web/login1.jsp" />
         <option value="$PROJECT_DIR$/../text1/web/login2.jsp" />
+        <option value="$PROJECT_DIR$/../text1/web/login.jsp" />
         <option value="$PROJECT_DIR$/../text1/src/loginDemo/LoginServlet.java" />
       </list>
     </option>
@@ -428,7 +417,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594272908474</updated>
-      <workItem from="1594272915771" duration="5419000" />
+      <workItem from="1594272915771" duration="5946000" />
     </task>
     <task id="LOCAL-00001" summary="login">
       <created>1594275355460</created>
@@ -444,11 +433,18 @@
       <option name="project" value="LOCAL" />
       <updated>1594276727268</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="条件判断账户密码跳转">
+      <created>1594278401263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594278401264</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5419000" />
+    <option name="totallyTimeSpent" value="5946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -494,7 +490,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="login" />
     <MESSAGE value="输入错误跳转" />
-    <option name="LAST_COMMIT_MESSAGE" value="输入错误跳转" />
+    <MESSAGE value="条件判断账户密码跳转" />
+    <option name="LAST_COMMIT_MESSAGE" value="条件判断账户密码跳转" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -521,22 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../text1/web/hello.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../text1/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../text1/web/WEB-INF/login1.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -545,10 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../text1/web/login.jsp">
+    <entry file="file://$PROJECT_DIR$/../text1/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -569,14 +550,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../text1/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../text1/web/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../text1/src/loginDemo/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="60" column="45" lean-forward="false" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        <state relative-caret-position="458">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2325#2326#0" expanded="true" />
-            <element signature="e#2356#2357#0" expanded="true" />
+            <element signature="e#2326#2327#0" expanded="true" />
+            <element signature="e#2357#2358#0" expanded="true" />
           </folding>
         </state>
       </provider>
