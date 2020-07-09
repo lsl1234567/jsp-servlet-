@@ -52,8 +52,13 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
             session.setAttribute("name", name);// 将用户名和密码保存在session中
             session.setAttribute("pwd", pwd);// 将用户名和密码保存在session中
             response.sendRedirect("hello.jsp");// 跳转到hello.jsp页面
-        } else {// 校验不成功，则留在跳转到login.jsp页面
-            response.sendRedirect("login.jsp");
+        } else if(!"admin".equals(name))
+        {// 校验不成功，则留在跳转到login1.jsp页面
+            response.sendRedirect("login1.jsp");
+        }
+         else if(!"123".equals(pwd))
+        {// 校验不成功，则留在跳转到login2.jsp页面
+            response.sendRedirect("login2.jsp");
         }
     }
     @Override
